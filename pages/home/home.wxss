@@ -1,0 +1,54 @@
+swiper{
+  height: calc(100vw/1080*720);
+}
+swiper image{
+  width:100vw;
+}
+.title{
+  height: 100rpx;
+  position: relative;
+}
+.title .line{
+ position: absolute;
+ width: 40%;
+ height: 4rpx;
+ background-color: #999;
+ left: 0;bottom: 0;right: 0;top: 0;
+ margin: auto;
+}
+.title_name{
+  width: 30%;
+  text-align: center;
+  line-height: 100rpx;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.scroll-view_H{
+  height: 250rpx;
+  white-space: nowrap;
+}
+
+.scroll-view-item_H{
+  display: inline-block;
+  width: 40%;
+  margin-left: 2%;
+  height: 235rpx;
+  background-color: #fff;
+  box-shadow: 4rpx 4rpx 6rpx #ccc;
+  border-radius: 6rpx;
+}
+.scroll-view-item_H image{
+ width: 100%;
+ display: block;
+}
+.scroll-view-item_H view{
+  text-align: center;
+ line-height: 50rpx;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

@@ -1,12 +1,14 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/new/new",
+    "pages/counsel/counsel"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "Sasha Coffee",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

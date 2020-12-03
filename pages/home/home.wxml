@@ -1,0 +1,23 @@
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <swiper-item wx:for="{{swiperArr}}" wx:key="*this">
+            <image src="{{item}}" mode="widthFix"></image>
+          </swiper-item>
+      </swiper>
+
+      <view class="title">
+<view class="line"></view>
+<view class="title_name">咖啡的故事</view>
+      </view>
+
+      <scroll-view class="scroll-view_H" scroll-x="true"  style="width: 100%">
+          <view  class="scroll-view-item_H" wx:for="{{cardArr}}" wx:key="*this">
+            <image src="{{item.src}}" mode="widthFix"></image>
+            <view>{{item.text}}</view>
+          </view>
+          <!-- 遍历进去 -->
+          <!-- <view   class="scroll-view-item_H demo-text-2">2</view>
+          <view  class="scroll-view-item_H demo-text-3">3</view>
+          <view  class="scroll-view-item_H demo-text-3">4</view>
+          <view  class="scroll-view-item_H demo-text-3">5</view> -->
+        </scroll-view>
